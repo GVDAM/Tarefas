@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Tarefas</title>
+    <link rel="stylesheet" href="stylepages.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Primeira Tela: Seleção do Nome -->
+        <div class="screen">
+            <h2>Selecione seu nome:</h2>
+            <select id="nomeFuncionario">
+                <option value="" disabled selected>Escolha seu nome</option>
+                <option value="Fabiane">Fabiane</option>
+                <option value="Fabiula">Fabiula</option>
+                <option value="Evelin">Evelin</option>
+                <option value="Leticia">Leticia</option>
+                <option value="Suzana">Suzana</option>
+                <!-- Adicione mais funcionários aqui -->
+           </select>
+            <button class="btn btn-screen" onclick="page_task()">Avançar</button>
+            <button class="btn btn-screen" style="background-color: #bf6026;" onclick="menu()">Voltar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
