@@ -1,11 +1,11 @@
 function menu() {
-    window.location.href = "file:///C:/Users/Gabriel%20e%20Brenda/Documents/P%C3%81GINA%20VIVAFIT%20modelo/index.html";
+    window.location.href = "https://gvdam.github.io/Tarefas/";
 }
 
 function page_name() {
-    window.location.href = "file:///C:/Users/Gabriel%20e%20Brenda/Documents/P%C3%81GINA%20VIVAFIT%20modelo/pages/nome.html";
+    window.location.href = "https://gvdam.github.io/Tarefas/pages/nome";
 }
 
 function page_task() {
-    window.location.href = "file:///C:/Users/Gabriel%20e%20Brenda/Documents/P%C3%81GINA%20VIVAFIT%20modelo/pages/tarefa.html";
+    window.location.href = "https://gvdam.github.io/Tarefas/pages/tarefa";
 }
