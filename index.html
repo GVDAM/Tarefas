@@ -23,15 +23,19 @@
                         <img src="assets/plus.png" alt="Icone Novo">
                         NOVA TAREFA
                     </button>
-                    <button class="btn">
+                    <button onclick="page_andamento()" class="btn">
                         <img src="assets/icon.png" alt="Icone andamento">
                         ANDAMENTO
                     </button>
                 </div>
                 <div class="status">
-                    <p class="status-p">TAREFAS EM ANDAMENTO: 5</p>
+                    <div class="status-p">
+                        <p>TAREFAS EM ANDAMENTO: </p><p id="quantidadeTarefas"></p>
+                    </div>
                     <hr>
-                    <p class="status-p">TAREFAS CONCLUÍDAS:</p>
+                    <div class="status-p">
+                        <p>TAREFAS CONCLUÍDAS: </p><p id="quantidadeConcluidas">0</p>
+                    </div>
                     <div class="progress-bar">
                         <div class="progress"></div>
                         <span class="progress-text">20%</span>
@@ -39,26 +43,6 @@
                 </div>
             </div>
         </div>
-        <!-- Primeira Tela: Seleção do Nome -->
-        <!--<div class="screen" id="screen1">
-            <h2>Selecione seu nome:</h2>
-            <select id="nomeFuncionario">
-                <option value="" disabled selected>Escolha seu nome</option>
-                <option value="João">João</option>
-                <option value="Maria">Maria</option>
-                <option value="Carlos">Carlos</option> -->
-                <!-- Adicione mais funcionários aqui -->
-            <!--</select>
-            <button onclick="nextScreen(2)">Avançar</button>
-        </div> -->
-
-        <!-- Segunda Tela: Escolha da Função -->
-        <!--<div class="screen" id="screen2" style="display:none;">
-            <h2>Selecione a função:</h2>
-            <button class="funcao-btn" onclick="setFuncao('Cortar')">Cortar</button>
-            <button class="funcao-btn" onclick="setFuncao('Costurar')">Costurar</button>
-        </div> -->
-
         <!-- Terceira Tela: Inserção de Quantidades -->
         <!--<div class="screen" id="screen3" style="display:none;">
             <h2>Insira as quantidades por tamanho:</h2>
@@ -83,18 +67,7 @@
             <button onclick="iniciarTarefa()">Iniciar Tarefa</button>
         </div> -->
 
-        <!-- Quarta Tela: Tarefas em Andamento -->
-        <!--<div class="screen" id="screen4" style="display:none;">
-            <h2>Tarefa em andamento:</h2>
-            <p>Nome: <span id="funcionarioDisplay"></span></p>
-            <p>Função: <span id="funcaoDisplay"></span></p>
-            <p>Modelo: <span id="modeloDisplay"></span></p>
-            <p>Quantidades - P: <span id="quantidadePDisplay"></span>, M: <span id="quantidadeMDisplay"></span>, G: <span id="quantidadeGDisplay"></span>, GG: <span id="quantidadeGGDisplay"></span></p>
-            <button onclick="finalizarTarefa()">Finalizar Tarefa</button>
-            <button onclick="novaTarefa()">Iniciar Nova Tarefa</button>
-        </div> -->
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>

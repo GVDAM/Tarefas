@@ -107,8 +107,14 @@ button {
 }
 
 .status-p {
+    display: flex;
+    flex-direction: row;
     font-size: 12px;
     margin-bottom: 10px;
+    color: #16131c;
+}
+
+.status-p p {
     color: #16131c;
 }
 

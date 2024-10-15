@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Tarefas</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Primeira Tela: Seleção do Nome -->
+        <form id="taskForm" class="screen">
+            <h2>Preencha o seu nome e tarefa a ser realizada:</h2>
+            <select name="nome" required>
+                <option value="" disabled selected>Escolha seu nome</option>
+                <option value="Fabiane">Fabiane</option>
+                <option value="Fabiula">Fabiula</option>
+                <option value="Evelin">Evelin</option>
+                <option value="Leticia">Leticia</option>
+                <option value="Suzana">Suzana</option>
+                <!-- Adicione mais funcionários aqui -->
+           </select>
+           <select name="tarefa" id="tarefaRealizada" required>
+            <option value="" disabled selected>Escolha a tarefa</option>
+            <option value="Corte">Corte</option>
+            <option value="Costura">Costura</option>
+            <!-- Adicione mais tarefas aqui -->
+       </select>
+            <input type="submit" class="btn btn-screen" value="Iniciar"/>
+            <button type="button" class="btn btn-screen" style="background-color: #bf6026;" onclick="menu()">Voltar</button>
+        </form>
+    </div>
+
+    <script src="form-script.js"></script>
+</body>
+</html>

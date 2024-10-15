@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Tarefas</title>
+    <link rel="stylesheet" href="andamento-style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Quarta Tela: Tarefas em Andamento -->
+         <div class="screen">
+            <h2>Tarefas em andamento:</h2>
+            <form>
+                <div class="tr">
+                    <p></p>
+                    <p>Nome</p>
+                    <p>Tarefa</p>
+                    <p>Tempo</p>
+                </div>
+                <label for="myCheckbox">
+                    <div class="td" id="selecaoDiv">
+                        <p><input type="checkbox" id="myCheckbox" required></p>
+                        <p id="funcionarioDisplay"></p>
+                        <p id="tarefaDisplay"></p>
+                        <p id="tempoDisplay"></p>
+                    </div>
+                </label>
+                <button type="submit" id="finalizar" disabled>Finalizar Tarefa</button>
+                <button type="button" class="btn btn-screen" style="background-color: #bf6026;" onclick="menu()">Voltar</button>
+            </form>
+         </div>
+    </div>
+
+    <script src="andamento-script.js"></script>
+</body>
+</html>
