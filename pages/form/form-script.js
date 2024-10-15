@@ -1,5 +1,5 @@
 function menu() {
-    window.location.href = "file:///C:/Users/Gabriel%20e%20Brenda/Documents/Brenda/Tarefas/index.html";
+    window.location.href = "https://gvdam.github.io/Tarefas/";
 }
 
 const taksForm = document.getElementById('taskForm');
