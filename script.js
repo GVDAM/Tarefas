@@ -1,5 +1,5 @@
 function menu() {
-    window.location.href = "https://gvdam.github.io/Tarefas/index.html";
+    window.location.href = "https://gvdam.github.io/Tarefas/";
 }
 
 function page_name() {
