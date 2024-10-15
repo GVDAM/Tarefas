@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Tarefas</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Primeira Tela: Seleção do Nome -->
+        <form id="finalizarForm" class="screen">
+            <h2>Insira as quantidades por tamanho:</h2>
+            <label>Modelo:</label>
+            <input name="nome" type="text" id="modelo" placeholder="Nome do modelo" required>
+            <div class="quantidades">
+                <label>P:</label>
+                <input name="qp" type="number" id="quantidadeP" min="0" value="0" placeholder="0">
+            </div>
+            <div class="quantidades">
+                <label>M:</label>
+                <input name="qm" type="number" id="quantidadeM" min="0" value="0" placeholder="0">
+            </div>
+            <div class="quantidades">
+                <label>G:</label>
+                <input name="qg" type="number" id="quantidadeG" min="0" value="0" placeholder="0">
+            </div>
+            <div class="quantidades">
+                <label>GG:</label>
+                <input name="qgg" type="number" id="quantidadeGG" min="0" value="0" placeholder="0">
+            </div>
+            <button type="submit" class="btn btn-screen">Salvar Tarefa</button>
+
+            <button type="button" class="btn btn-screen" style="background-color: #bf6026;" onclick="menu()">Voltar</button>
+        </form>
+    </div>
+    <script src="form-script.js"></script>
+</body>
+</html>

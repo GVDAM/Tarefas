@@ -1,5 +1,6 @@
 function menu() {
-    window.location.href = "file:///C:/Users/Gabriel%20e%20Brenda/Documents/Brenda/Tarefas/index.html";
+    //window.location.href = "file:///C:/Users/Gabriel%20e%20Brenda/Documents/Brenda/Tarefas/index.html";
+    window.location.href = "https://gvdam.github.io/Tarefas/index.html";
 }
 
 var nome = localStorage.getItem('nome');
@@ -47,3 +48,11 @@ checkbox.addEventListener('change', (event) => {
     selecaoDiv.style.border = "none";
   }
 })
+
+const andamentoForm = document.getElementById('andamentoForm');
+
+andamentoForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+    window.location.href = "file:///C:/Users/Gabriel%20e%20Brenda/Documents/Brenda/Tarefas/pages/finalizar/form.html";
+    //window.location.href = "https://gvdam.github.io/Tarefas/pages/finalizar/form/html";
+  });
